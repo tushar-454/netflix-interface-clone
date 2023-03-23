@@ -145,6 +145,17 @@ body {
   .watcheverytext h4 {
     font-size: 20px !important;
   }
+  .kidSpacewrap {
+    flex-direction: column-reverse !important;
+  }
+  .kigimgTitle {
+    text-align: center !important;
+  }
+  .kigimgTitle h1 {
+    font-size: 37px !important;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (max-width:768px) {
@@ -159,7 +170,18 @@ body {
   }
   .downloadBgTitle {
     text-align: center;
-}
+  }
+  .kidSpacewrap {
+    flex-direction: column-reverse !important;
+  }
+  .kigimgTitle {
+    text-align: center !important;
+  }
+  .kigimgTitle h1 {
+    font-size: 37px !important;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (max-width:425px) {
@@ -202,4 +224,50 @@ body {
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 1rem;
+}
+
+.kidSpacewrap {
+  padding: 5rem 0rem;
+}
+.kigimgTitle h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.kigImage img {
+  width: 100%;
+}
+
+.card {
+  background: #2e2e2e !important;
+  color: white;
+  margin-bottom: 2rem;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  border-radius: 0px;
+  padding: 0px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: #797979 !important;
+}
+
+.card-header a {
+  color: white;
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+.card-header {
+  cursor: pointer;
+  box-shadow: none;
+  border-bottom: 1px solid black;
+}
+
+.card-body {
+  background: #2e2e2e !important;
 }

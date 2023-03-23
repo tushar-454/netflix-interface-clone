@@ -1,103 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Netflix Bangladesh - Watch TV Shows Online, Watch Movies Online</title>
-  <!-- bootstrap link  -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  <!-- fontawesome cdn  -->
-  <script src="https://kit.fontawesome.com/75ac0106f2.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Netflix Bangladesh - Watch TV Shows Online, Watch Movies Online
+    </title>
+    <!-- bootstrap link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
 
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <!-- header html code start  -->
-  <div class="netflixBg border-bottom border-5 border-light-subtle">
-    <div class="container">
-      <div class="headWrap d-flex justify-content-between align-items-center py-4">
-        <div class="brandImage">
-          <a href="#"><img src="./Assets/image/brandlogo.png" alt="brandLogo" style="width:150px"></a>
-        </div>
-        <div class="signBtn">
-          <a href="#" class="btn btn-danger">Sign in</a>
-        </div>
-      </div>
-      <div class="getStartwrap">
-        <div class="mainTitle">
-          <h1>Unlimited movies, TV shows, and more.</h1>
-          <h4 class="mb-4 mt-4">Plans now start at USD2.99/month.</h4>
-          <h5>Ready to watch? Enter your email to create or restart your membership.</h5>
-        </div>
-        <div class="startWrap">
-          <div class="emailInput form-floating">
-            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-            <label for="email">Email Adress</label>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header html code start  -->
+    <div class="netflixBg border-bottom border-5 border-light-subtle">
+      <div class="container">
+        <div
+          class="headWrap d-flex justify-content-between align-items-center py-4"
+        >
+          <div class="brandImage">
+            <a href="#"
+              ><img
+                src="./Assets/image/brandlogo.png"
+                alt="brandLogo"
+                style="width: 150px"
+            /></a>
           </div>
-          <div class="getstartBtn"><a href="#" class="btn btn-danger px-5 py-3  ms-2 fw-bolder">Get Started <i class="fa-solid fa-chevron-right"></i></a></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- header html code end -->
-  <!-- netflix featurs html start -->
-  <div class="netflixFeaturs border-bottom border-5 border-light-subtle">
-    <div class="container">
-      <div class="featuresWrap row justify-content-between align-items-center">
-        <div class="featuresTitle col-lg-6">
-          <h1>Enjoy on your TV.</h1>
-          <h3>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h3>
-        </div>
-        <div class="featuresVWrap col-lg-6">
-          <div class="featuresVideo">
-            <video src="./Assets/image/featursVideo.m4v" autoplay></video>
-            <div class="featuresImg">
-              <img src="./Assets/image/featurstv.png" alt="">
-            </div>
+          <div class="signBtn">
+            <a href="#" class="btn btn-danger">Sign in</a>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- netflix featurs html end -->
-  <!-- download direction html start  -->
-  <div class="downloadBg border-bottom border-5 border-light-subtle">
-    <div class="container">
-      <div class="downlaodBgWrap d-flex justify-content-between align-items-center">
-        <div class="dlBgImg">
-          <img src="./Assets/image/downloadappbg.jpg" alt="">
-          <div class="dlbgCardwrap d-flex justify-content-between align-items-center">
-            <div class="cardImg">
-              <img src="./Assets/image/cardImg.png" alt="">
+        <div class="getStartwrap">
+          <div class="mainTitle">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <h4 class="mb-4 mt-4">Plans now start at USD2.99/month.</h4>
+            <h5>
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </h5>
+          </div>
+          <div class="startWrap">
+            <div class="emailInput form-floating">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter email"
+                name="email"
+              />
+              <label for="email">Email Adress</label>
             </div>
-            <div class="cardTitle">
-              <h5>Stranger Things</h5>
-              <p class="text-primary">Downloading...</p>
-            </div>
-            <div class="carddlIcon">
-              <span class="text-white"><i class="fa-solid fa-download"></i></span>
+            <div class="getstartBtn">
+              <a href="#" class="btn btn-danger px-5 py-3 ms-2 fw-bolder"
+                >Get Started</a
+              >
             </div>
           </div>
         </div>
-        <div class="downloadBgTitle">
-          <h1>Download your shows to watch offline.</h1>
-          <h5>Save your favorites easily and always have something to watch.</h5>
+      </div>
+    </div>
+    <!-- header html code end -->
+    <!-- netflix featurs html start -->
+    <div class="netflixFeaturs border-bottom border-5 border-light-subtle">
+      <div class="container">
+        <div
+          class="featuresWrap row justify-content-between align-items-center"
+        >
+          <div class="featuresTitle col-lg-6">
+            <h1>Enjoy on your TV.</h1>
+            <h3>
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+              Blu-ray players, and more.
+            </h3>
+          </div>
+          <div class="featuresVWrap col-lg-6">
+            <div class="featuresVideo">
+              <video src="./Assets/image/featursVideo.m4v" autoplay></video>
+              <div class="featuresImg">
+                <img src="./Assets/image/featurstv.png" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- download direction html end -->
-  <!-- watch everwhere html code start  -->
-  <div class="watchevery border-bottom border-5 border-light-subtle">
-    <div class="container">
-      <div class="watcheverytext">
-        <h1>Watch everywhere.</h1>
-        <h4>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h4>
+    <!-- netflix featurs html end -->
+    <!-- download direction html start  -->
+    <div class="downloadBg border-bottom border-5 border-light-subtle">
+      <div class="container">
+        <div
+          class="downlaodBgWrap d-flex justify-content-between align-items-center"
+        >
+          <div class="dlBgImg">
+            <img src="./Assets/image/downloadappbg.jpg" alt="" />
+            <div
+              class="dlbgCardwrap d-flex justify-content-between align-items-center"
+            >
+              <div class="cardImg">
+                <img src="./Assets/image/cardImg.png" alt="" />
+              </div>
+              <div class="cardTitle">
+                <h5>Stranger Things</h5>
+                <p class="text-primary">Downloading...</p>
+              </div>
+              <div class="carddlIcon">
+                <span class="text-white"
+                  ><i class="fa-solid fa-download"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="downloadBgTitle">
+            <h1>Download your shows to watch offline.</h1>
+            <h5>
+              Save your favorites easily and always have something to watch.
+            </h5>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- watch everwhere html code end -->
-</body>
+    <!-- download direction html end -->
+    <!-- watch everwhere html code start  -->
+    <div class="watchevery border-bottom border-5 border-light-subtle">
+      <div class="container">
+        <div class="watcheverytext">
+          <h1>Watch everywhere.</h1>
+          <h4>
+            Stream unlimited movies and TV shows on your phone, tablet, laptop,
+            and TV.
+          </h4>
+        </div>
+      </div>
+    </div>
+    <!-- watch everwhere html code end -->
+    <!-- kid space html code start  -->
+    <div class="kidSpace border-bottom border-5 border-light-subtle">
+      <div class="container">
+        <div
+          class="kidSpacewrap row justify-content-between align-items-center"
+        >
+          <div class="kigImage col-lg-6">
+            <img src="./Assets/image/kidImg.png" alt="" />
+          </div>
+          <div class="kigimgTitle col-lg-6">
+            <h1>Create profiles for kids.</h1>
+            <h4>
+              Send kids on adventures with their favorite characters in a space
+              made just for them—free with your membership.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- kid space html code end-->
+    <!-- Frequently Asked Questions html start  -->
+    <div class="faq">
+      <div class="container">
+        <div class="faqwrap py-5">
+          <div class="faqTitle text-center py-4">
+            <h1>Frequently Asked Questions</h1>
+          </div>
+          <div class="accordion">
+            <div class="card">
+              <div class="card-header" data-bs-toggle="collapse" href="#collapseOne">
+                <a class="btn">
+                  What is Netflix?
+                </a>
+              </div>
+              <div
+                id="collapseOne"
+                class="collapse"
+                data-bs-parent="#accordion"
+              >
+                <div class="card-body">
+                  Netflix is a streaming service that offers a wide variety of
+                  award-winning TV shows, movies, anime, documentaries, and more
+                  on thousands of internet-connected devices. You can watch as
+                  much as you want, whenever you want without a single
+                  commercial – all for one low monthly price. There's always
+                  something new to discover and new TV shows and movies are
+                  added every week!
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" data-bs-toggle="collapse" href="#collapseTwo">
+                <a class="btn">
+                  How much does Netflix cost?
+                </a>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                data-bs-parent="#accordion"
+              >
+                <div class="card-body">
+                  Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+                  streaming device, all for one fixed monthly fee. Plans range
+                  from USD2.99 to USD9.99 a month. No extra costs, no contracts.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" data-bs-toggle="collapse" href="#collapseThree">
+                <a class="btn">
+                  Where can I watch?
+                </a>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                data-bs-parent="#accordion"
+              >
+                <div class="card-body">
+                  Watch anywhere, anytime. Sign in with your Netflix account to
+                  watch instantly on the web at netflix.com from your personal
+                  computer or on any internet-connected device that offers the
+                  Netflix app, including smart TVs, smartphones, tablets,
+                  streaming media players and game consoles. You can also
+                  download your favorite shows with the iOS, Android, or Windows
+                  10 app. Use downloads to watch while you're on the go and
+                  without an internet connection. Take Netflix with you
+                  anywhere.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" data-bs-toggle="collapse" href="#collapseFour">
+                <a class="btn">
+                  How do I cancel?
+                </a>
+              </div>
+              <div
+                id="collapseFour"
+                class="collapse"
+                data-bs-parent="#accordion"
+              >
+                <div class="card-body">
+                  Netflix is flexible. There are no pesky contracts and no
+                  commitments. You can easily cancel your account online in two
+                  clicks. There are no cancellation fees – start or stop your
+                  account anytime.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" data-bs-toggle="collapse" href="#collapseFive">
+                <a class="btn">
+                  What can I watch on Netflix?
+                </a>
+              </div>
+              <div
+                id="collapseFive"
+                class="collapse"
+                data-bs-parent="#accordion"
+              >
+                <div class="card-body">
+                  Netflix has an extensive library of feature films,
+                  documentaries, TV shows, anime, award-winning Netflix
+                  originals, and more. Watch as much as you want, anytime you
+                  want.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" data-bs-toggle="collapse" href="#collapseSix">
+                <a class="btn">
+                  Is Netflix good for kids?
+                </a>
+              </div>
+              <div
+                id="collapseSix"
+                class="collapse"
+                data-bs-parent="#accordion"
+              >
+                <div class="card-body">
+                  The Netflix Kids experience is included in your membership to
+                  give parents control while kids enjoy family-friendly TV shows
+                  and movies in their own space. Kids profiles come with
+                  PIN-protected parental controls that let you restrict the
+                  maturity rating of content kids can watch and block specific
+                  titles you don’t want kids to see.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Frequently Asked Questions html end -->
+  </body>
 </html>
