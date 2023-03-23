@@ -1,0 +1,205 @@
+@font-face {
+  font-family: netflix;
+  src: url("./Assets/fonts/NetflixSans-Regular.otf") format("opentype");
+}
+
+* {
+  font-family: netflix !important;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.netflixBg {
+  background-image: url("./Assets/image/mainBg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 700px;
+}
+
+.emailInput input {
+  background-color: rgba(0, 0, 0, 0.627);
+  outline: none;
+  border: 1px solid rgb(129, 129, 129);
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+}
+
+.emailInput input:focus {
+  background-color: rgba(0, 0, 0, 0.627);
+  outline: none;
+  border: 1px solid rgb(129, 129, 129);
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+}
+.mainTitle {
+  text-align: center;
+}
+
+.mainTitle h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+.getStartwrap {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .mainTitle h1 {
+  line-height: 5rem;
+} */
+
+.mainTitle h5 {
+  margin-bottom: 4rem;
+}
+.startWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.emailInput input {
+  width: 25rem !important;
+}
+.getstartBtn {
+  width: 13rem;
+}
+.featuresTitle h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 6rem;
+}
+.featuresTitle h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+@media (max-width:425px) {
+  .featuresTitle h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 3rem;
+  }
+  .featuresTitle h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+.netflixFeatures {
+  padding: 12rem 0px;
+}
+.featuresVideo {
+  position: relative;
+}
+
+.featuresImg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.featuresImg img {
+  width: 100%;
+}
+
+.featuresVideo video {
+  width: 100%;
+  position: relative;
+  top: 33px;
+  transform: scale(0.73);
+  left: -1px;
+}
+
+.featuresWrap {
+  padding: 4rem 0rem;
+}
+
+@media (max-width:992px) {
+  .mainTitle h1{
+    font-size: 30px;
+  }
+  .mainTitle h4{
+    font-size: 20px;
+  }
+  .mainTitle h5{
+    font-size: 15px;
+  }
+  .getStartwrap {
+    margin-top: 5rem;
+  }
+  .watcheverytext {
+    width: 100% !important;
+    text-align: center;
+  }
+  .watcheverytext h1 {
+    font-size: 30px !important;
+  }
+  .watcheverytext h4 {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width:768px) {
+  .startWrap {
+    flex-direction: column;
+  }
+  .emailInput {
+    margin-bottom: 1rem;
+  }
+  .downlaodBgWrap {
+    flex-direction: column-reverse;
+  }
+  .downloadBgTitle {
+    text-align: center;
+}
+}
+
+@media (max-width:425px) {
+  .emailInput input {
+    width: 100% !important;
+  }
+}
+
+.netflixFeaturs {
+  height: 40rem;
+}
+.dlBgImg {
+  position: relative;;
+}
+.dlbgCardwrap {
+  position: absolute;
+  bottom: 35px;
+  left: 1rem;
+  background: black;
+  padding: 1rem;
+  border-radius: 7px;
+  width: 20rem;
+}
+.cardImg {
+  width: 3rem;
+}
+
+.cardImg img {
+  width: 100%;
+}
+.downlaodBgWrap {
+  padding: 6rem 0px;
+}
+
+.watcheverytext {
+  padding: 5rem 0rem;
+  width: 26rem;
+}
+.watcheverytext h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
