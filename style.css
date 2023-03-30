@@ -162,6 +162,9 @@ body {
   .startWrap {
     flex-direction: column;
   }
+  .subscribeInputWrap {
+    flex-direction: column;
+  }
   .emailInput {
     margin-bottom: 1rem;
   }
@@ -181,6 +184,9 @@ body {
     font-size: 37px !important;
     font-weight: 900;
     margin-bottom: 1rem;
+  }
+  .footerlinkItem ul {
+    grid-template-columns: auto auto !important;
   }
 }
 
@@ -276,4 +282,26 @@ body {
 }
 .card-header span {
   font-size: 2rem;
+}
+.subscribeWrap {
+  margin-bottom: 6rem;
+}
+.subscribeInputWrap {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.qna {
+  margin-top: 5rem;
+}
+
+.language select {
+  width: fit-content !important;
+}
+
+.footerlinkItem ul {
+  display: grid !important;
+  grid-template-columns: auto auto auto;
 }
