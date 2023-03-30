@@ -266,8 +266,14 @@ body {
   cursor: pointer;
   box-shadow: none;
   border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .card-body {
   background: #2e2e2e !important;
+}
+.card-header span {
+  font-size: 2rem;
 }
